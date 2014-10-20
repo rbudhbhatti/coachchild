@@ -4,10 +4,20 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require("fs");
 
 var routes = require('./routes/index');
 
 var app = express();
+
+// declare breakline generator
+app.locals.br = function (numTimes) {
+    var result = ""
+    for (var i=0; i<numTimes; i++) {
+        result += "<br/>";
+    }
+    return result;
+};
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -21,7 +31,26 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.locals.appdata = require("./data.json")
+// parse post file names in format YYYYMMDD-name.ejs
+var parsePosts = function (files) {
+    var result = {};
+    for (var i=0; i<files.length; i++) {
+        result[files[i]] = {
+            date : files[i].substring(0,8), // assume index 8 is separator character
+            postid : files[i].substring(9,files[i].indexOf(".ejs"))
+        };
+    }
+    return result;
+};
+
+// make array of posts in view/partials/content/posts directory global
+fs.readdir("views/partials/content/posts", function (err, files) {
+    if (err) console.log(err);
+    files.sort().reverse(); // most recent posts first
+    app.locals.filesdata = parsePosts(files);
+    console.log(app.locals.filesdata);
+})
+
 app.use('/', routes);
 
 // catch 404 and forward to error handler

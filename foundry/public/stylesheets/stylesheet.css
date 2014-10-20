@@ -25,6 +25,10 @@
 	display: block;
 }
 
+#preview-text {
+	display: none;
+}
+
 .team-members th, td {
 	position: relative;
 	text-align: center;

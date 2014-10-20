@@ -22,6 +22,6 @@ $(document).ready(function () {
             });
             isFixed = false;
         }
-        console.log("fixed");
+        // console.log("fixed");
     });
 });
