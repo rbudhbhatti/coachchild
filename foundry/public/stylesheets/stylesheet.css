@@ -1,0 +1,94 @@
+#background {
+	background: url("../images/backgrounds/background.jpg") repeat 50% 50% fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: 0px 0px;
+}
+
+.container {
+	color: #008800;
+	font-size: 36px;
+}
+
+.content-container {
+	background-color: white;
+	opacity: 0.75;
+	padding: 2.5%;
+	border: 1px solid gray;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.team-members th, td {
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0px;
+	border: 1px solid black;
+}
+
+/* Begin nav-bar CSS */
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#nav {
+	padding: 20px;
+	background: white;
+	vertical-align: middle;
+	z-index: 9999;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	float: left;
+	padding: 3px 8px;
+	background-color: white;
+	margin: 0 10px 0 0;
+	list-style-type: none;
+	font: sans-serif;
+}
+
+#nav li a {
+	color: gray;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+	text-decoration: underline;
+}
+
+.home {
+	font-size: 32px;
+}
+
+.navButton {
+	font-size: 16px;
+}
+
+#navGap {
+	width: 50%; /* Adjust as needed */
+}
+
+br.clearRight {
+	clear: right;
+}
+
+br.clearLeft {
+	clear: left;
+}
