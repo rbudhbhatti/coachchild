@@ -1,0 +1,41 @@
+<div class="content-container">
+    <h2>Teams [TO DO: Table of Contents]</h2>
+</div>
+
+<%- br(5) %>
+
+<% teamdata.forEach(function (item) { %>
+    <div class="content-container" id="<%= item.teamid %>">
+        <h3>
+            <% if (item.link) { %>
+                <a href="<%= item.link %>">
+                    <%= item.name %>
+                </a>
+            <% } else { %>
+                <%= item.name %>
+            <% } %>
+        </h3>
+
+        <%- item.description %>
+
+        <p>Members:</p>
+
+        <ul>
+            <% for (var member in item.members) { %>
+                <li>
+                    <p class="team-member">
+                        <% if (item.members[member].website) { %>
+                            <a href="<%= item.members[member].website %>">
+                                <%= member %>
+                            </a>
+                        <% } else { %>
+                            <%= member %>
+                        <% } %>
+                    </p>
+                    <p class="role"><%= item.members[member].role %></p>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+    <%- br(5) %>
+<% }); %>

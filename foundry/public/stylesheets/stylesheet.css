@@ -25,18 +25,27 @@
 	display: block;
 }
 
-#preview-text {
+.team-member {
+	margin: 0px;
+}
+
+.role {
+	font-size: 24px;
+	margin: 6px;
+}
+
+/* Begin blog-specific CSS */
+
+.blog-preview-container {
 	display: none;
 }
 
-.team-members th, td {
-	position: relative;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin: 0px;
-	border: 1px solid black;
+.preview-title, .preview-text {
+	display: inline;
 }
+
+
+/* End blog-specific CSS */
 
 /* Begin nav-bar CSS */
 

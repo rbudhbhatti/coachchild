@@ -1,7 +1,9 @@
-<div class="content-container">
-	<% for (var key in filesdata) { %>
-		<% for (var field in filesdata[key]) { %>
-			<p> <%= filesdata[key][field] %> <p>
-		<% } %>
-	<% } %>
-</div>
+<% for (var filename in files) { %>
+	<div class="content-container">
+		<div class="blog-preview-container">
+			<%- files[filename].contents %>
+		</div>
+		<%= files[filename].date %>
+	</div>
+	<%- br(3) %>
+<% } %>

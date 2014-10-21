@@ -1,0 +1,78 @@
+[
+  {
+    "teamid": "webmedia",
+    "name": "Web/Media",
+    "link": "/",
+    "description": "<p>We are the web/media team and we made this beautiful website</p>",
+    "members": {
+      "Andrew Yang": {
+        "role": "Website Developer",
+        "website": "http://github.com/andrewyang96"
+      },
+      "Abhishek Verma": {
+        "role": "Website Developer",
+        "website": "http://github.com/averma22"
+      },
+      "Veronica Lin": {
+        "role": "Graphics Designer",
+        "website": "http://github.com/vglin2"
+      }
+    }
+  },
+  {
+    "teamid": "galaxy",
+    "name": "Chrome Galaxy",
+    "link": null,
+    "description": "<p>Chrome Galaxy takes on an innovative galactical perspective to represent and better organize the many tabs of Chrome Users. The visual user interface allows in-depth customization and quick navigation while containing user-friendly elements.</p>",
+    "members": {
+      "Brandon Chen": {
+        "role": "Back End",
+        "website": null
+      },
+      "Bob Planek": {
+        "role": "Back End",
+        "website": null
+      },
+      "Alaa Qarooni": {
+        "role": "Back End",
+        "website": null
+      },
+      "Gabe Shindnes": {
+        "role": "Front End",
+        "website": null
+      },
+      "Rohan Kapatkar": {
+        "role": "Front End",
+        "website": null
+      },
+      "Samir Chaudhry": {
+        "role": "Front End",
+        "website": null
+      },
+      "Mooshy Adeyemo": {
+        "role": "Front End",
+        "website": null
+      }
+    }
+  },
+  {
+    "teamid": "newsmapper",
+    "name": "NewsMapper",
+    "link": "http://newsmapper.me/",
+    "description": "<p>NewsMapper is a geographic news aggregator and visualizer that combines unformatted feeds from Reddit, Twitter, Facebook, Google and others into a popularity-based ranking system. Take a look at <a href=\"http://newsmapper.me\">newsmapper.me</a> or our <a href=\"https://github.com/newsmapper/web\">development server</a> for more. Enjoy the rest of your <script>document.write([\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"][new Date().getDay()]);</script>—and thanks!</p>",
+    "members": {
+      "Graham Dyer": {
+        "role": "UI and iOS Developer",
+        "website": "http://gdyer.de/"
+      },
+      "Tom Chen": {
+        "role": "Front End",
+        "website": "http://github.com/dsrcl"
+      },
+      "Daniel Margosian": {
+        "role": "Android Developer",
+        "website": "http://github.com/margosi2"
+      }
+    }
+  }
+]

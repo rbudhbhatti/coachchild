@@ -31,25 +31,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// parse post file names in format YYYYMMDD-name.ejs
-var parsePosts = function (files) {
-    var result = {};
-    for (var i=0; i<files.length; i++) {
-        result[files[i]] = {
-            date : files[i].substring(0,8), // assume index 8 is separator character
-            postid : files[i].substring(9,files[i].indexOf(".ejs"))
-        };
-    }
-    return result;
-};
-
-// make array of posts in view/partials/content/posts directory global
-fs.readdir("views/partials/content/posts", function (err, files) {
-    if (err) console.log(err);
-    files.sort().reverse(); // most recent posts first
-    app.locals.filesdata = parsePosts(files);
-    console.log(app.locals.filesdata);
-})
+// get team info from JSON file
+app.locals.teamdata = require("./data.json");
+// console.log(app.locals.teamdata);
 
 app.use('/', routes);
 
@@ -83,6 +67,5 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
 
 module.exports = app;
