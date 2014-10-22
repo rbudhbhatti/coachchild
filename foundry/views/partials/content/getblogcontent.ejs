@@ -1,9 +1,10 @@
 <% for (var filename in files) { %>
 	<div class="content-container">
-		<div class="blog-preview-container">
-			<%- files[filename].contents %>
-		</div>
-		<%= files[filename].date %>
+		<h3><%= files[filename].title %></h3>
+		<p>By <%= files[filename].author %></p>
+		<p>Posted <%- new Date(files[filename].timestamp).toDateString() %></p>
+		<p><%= files[filename].preview%></p>
+		<p><a href=<%= files[filename].postname %>>Read more...</a></p>
 	</div>
 	<%- br(3) %>
 <% } %>

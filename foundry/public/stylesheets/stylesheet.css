@@ -34,19 +34,6 @@
 	margin: 6px;
 }
 
-/* Begin blog-specific CSS */
-
-.blog-preview-container {
-	display: none;
-}
-
-.preview-title, .preview-text {
-	display: inline;
-}
-
-
-/* End blog-specific CSS */
-
 /* Begin nav-bar CSS */
 
 header {
