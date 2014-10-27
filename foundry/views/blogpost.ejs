@@ -11,7 +11,15 @@
   	<!-- Begin content -->
   	<div class="container">
       <%- br(5) %>
-  		<% include partials/content/getblogcontent.ejs %>
+      <div class="content-container">
+        <h1><%= file.title %></h1>
+        <h3>By <%=file.author %></h3>
+        <h3>Posted <%- new Date(file.timestamp).toDateString() %></h3>
+
+        <%- br(3) %>
+
+        <%- file.content %>
+      </div>
 
   	</div><!-- End content -->
   	<% include partials/template/footer.ejs %>

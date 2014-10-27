@@ -1,5 +1,20 @@
 <div class="content-container">
-    <h2>Teams [TO DO: Table of Contents]</h2>
+    <h1 style="position:relative;text-align:center">Teams</h1>
+</div>
+
+<%- br(3) %>
+
+<div class="content-container">
+    <h3>Table of Contents</h3>
+    <ul style="font-size:24px;font-style:oblique">
+        <% teamdata.forEach(function (item) { %>
+            <li style="margin:6px">
+                <a href="/teams/#<%= item.teamid %>">
+                    <%= item.name %>
+                </a>
+            </li>
+        <% }); %>
+    </ul>
 </div>
 
 <%- br(5) %>
@@ -37,5 +52,5 @@
             <% } %>
         </ul>
     </div>
-    <%- br(5) %>
+    <%- br(3) %>
 <% }); %>

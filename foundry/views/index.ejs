@@ -13,13 +13,15 @@
 
   		<%- br(5) %><!-- Need breaklines to move content from underneath header -->
 			<div class="content-container">
-				<img src="./images/logo.png" id="logo" alt="Logo of CS 196: The Foundry">
+				<img src="./images/logo.png" id="logo" alt="Logo of CS 196: The Foundry" width="70%">
 			</div>
 
-			<%- br(10) %>
-			<% include partials/content/loremipsum.ejs %>
-			<%- br(10) %>
-			<% include partials/content/loremipsum.ejs %>
+			<%- br(5) %>
+      <div class="content-container" style="position:relative;text-align:center">
+        <h1>Our Sponsors:</h1>
+        <img src="./images/sponsor_google.png" alt="Google" width="40%">
+        <img src="./images/sponsor_3red.jpg" alt="3Red" width="40%">
+      </div>
 
   	</div><!-- End content -->
   	<% include partials/template/footer.ejs %>

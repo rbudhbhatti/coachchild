@@ -3,7 +3,7 @@
     "teamid": "webmedia",
     "name": "Web/Media",
     "link": "/",
-    "description": "<p>We are the web/media team and we made this beautiful website</p>",
+    "description": "<p>We are the web/media team and we made this beautiful website using <a href=\"http://nodejs.org/\">Node.js</a> + <a href=\"http://expressjs.com/\">Express.js</a></p>",
     "members": {
       "Andrew Yang": {
         "role": "Website Developer",
@@ -26,31 +26,31 @@
     "description": "<p>Chrome Galaxy takes on an innovative galactical perspective to represent and better organize the many tabs of Chrome Users. The visual user interface allows in-depth customization and quick navigation while containing user-friendly elements.</p>",
     "members": {
       "Brandon Chen": {
-        "role": "Back End",
+        "role": "Backend",
         "website": null
       },
       "Bob Planek": {
-        "role": "Back End",
+        "role": "Backend",
         "website": null
       },
       "Alaa Qarooni": {
-        "role": "Back End",
+        "role": "Backend",
         "website": null
       },
       "Gabe Shindnes": {
-        "role": "Front End",
+        "role": "Frontend",
         "website": null
       },
       "Rohan Kapatkar": {
-        "role": "Front End",
+        "role": "Frontend",
         "website": null
       },
       "Samir Chaudhry": {
-        "role": "Front End",
+        "role": "Frontend",
         "website": null
       },
       "Mooshy Adeyemo": {
-        "role": "Front End",
+        "role": "Frontend",
         "website": null
       }
     }
@@ -66,12 +66,124 @@
         "website": "http://gdyer.de/"
       },
       "Tom Chen": {
-        "role": "Front End",
+        "role": "Frontend",
         "website": "http://github.com/dsrcl"
       },
       "Daniel Margosian": {
         "role": "Android Developer",
         "website": "http://github.com/margosi2"
+      }
+    }
+  },
+  {
+    "teamid": "rogue",
+    "name": "Rogue: Map Generation",
+    "link": null,
+    "description": "<p>A top-down RPG game with <style=\"font-weight:bold\">perma-death</style></p>",
+    "members": {
+      "Bogdan Enache": {
+        "role": "Map",
+        "website": null
+      },
+      "Gabriel Silva": {
+        "role": "Map",
+        "website": null
+      },
+      "Wyatt Duiker": {
+        "role": "Map",
+        "website": null
+      },
+      "Kevin Lin": {
+        "role": "Core Functions",
+        "website": null
+      },
+      "Kyle Erickson": {
+        "role": "Core Functions",
+        "website": null
+      },
+      "Jonathon Abbott": {
+        "role": "Core Functions",
+        "website": null
+      },
+      "Pavle Simonovic": {
+        "role": "GUI",
+        "website": null
+      },
+      "Thomas Roush": {
+        "role": "GUI",
+        "website": null
+      },
+      "Yicheng Gong": {
+        "role": "GUI",
+        "website": null
+      },
+      "Ivan Chen": {
+        "role": "AI",
+        "website": null
+      },
+      "Phillip Harris": {
+        "role": "AI",
+        "website": null
+      },
+      "Cameron Ewell": {
+        "role": "AI",
+        "website": null
+      }
+    }
+  },
+  {
+    "teamid": "weighin",
+    "name": "WeighIn: Games with a purpose. ",
+    "link": "http://weighin.me/",
+    "description": null,
+    "members": {
+      "Andrew Kuznetsov": {
+        "role": "Games & Project Lead",
+        "website": null
+      },
+      "Andrew Breckenridge": {
+        "role": "Games",
+        "website": null
+      },
+      "Andrew Thieck": {
+        "role": "Games",
+        "website": null
+      },
+      "Harshay Shah": {
+        "role": "Frontend",
+        "website": null
+      },
+      "Kazuhiro Uchikata": {
+        "role": "Frontend",
+        "website": null
+      },
+      "Alejandro Gonzalez": {
+        "role": "Frontend",
+        "website": null
+      },
+      "Paul Novacovici": {
+        "role": "Frontend",
+        "website": null
+      },
+      "Gaurav Pasari": {
+        "role": "Web Backend",
+        "website": null
+      },
+      "Scott Cliento": {
+        "role": "Web Backend",
+        "website": null
+      },
+      "Dylan Plecki": {
+        "role": "Server Backend",
+        "website": null
+      },
+      "Radhir Kothuri": {
+        "role": "Server Backend",
+        "website": null
+      },
+      "Krishna Mittal": {
+        "role": "Server Backend",
+        "website": null
       }
     }
   }

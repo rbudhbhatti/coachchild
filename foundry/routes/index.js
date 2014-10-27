@@ -34,18 +34,13 @@ router.get("/blog", function (req, res) {
 /* GET blog post page. */
 router.get("/blog/:postname?", function (req, res) {
 	var dir = "views/partials/content/posts/";
-	// TODO: replace
-	var myFile = filesdata[req.params.postname];
+	var myFile = dir + req.params.postname + ".json";
+	var myFileJSON = JSON.parse(fs.readFileSync(myFile,"utf-8"));
 	fs.readFile(dir+myFile, function (err, data) {
 		if (err) console.log(err);
-		var dummy = document.createElement("div");
-		dummy.innerHTML = data;
-		var ds = filesdata[filename].date;
-		var d = new Date(ds.substring(0,4),ds.substring(4,6),ds.substring(6,8));
 		res.render("blogpost", {
-			title : dummy.getElementsByTagName("div")[0].innerHTML + " - CS 196: The Foundry",
-			filename : filesdata[req.params.postname], // object
-			date : d.toDateString()
+			title : myFileJSON.title + " - CS 196: The Foundry",
+			file : myFileJSON
 		});
 	});
 });
