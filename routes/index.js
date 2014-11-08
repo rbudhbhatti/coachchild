@@ -61,8 +61,12 @@ router.get("/teams", function (req, res) {
 		});
 	});
 });
+<<<<<<< HEAD
 
 /* GET team page */
+=======
+/* GET team route */
+>>>>>>> origin/master
 router.get("/teams/:teamname?", function (req,res){
 	var dir ="views/partials/content/teams/";
 	var myFile = dir +req.params.teamname + ".json";
