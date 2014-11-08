@@ -1,0 +1,38 @@
+{
+    "description": "",
+    "link": "",
+    "members": {
+        "asharm52": {
+            "bio": "I've been programming since 8th grade, and have participated in multiple programming competitions, and have since worked on two apps that have been published on the app store for use by students at my previous high school. I also worked on a research project for Professor Richard Cole of NYU, and am currently interning at the National Center for Supercomputing Applications, where I am working on developing an app for Google Cardboard. My greatest interest in regard to computer science is developing iOS and Android applications, and I would like to study virtual reality in far greater depth in the future.",
+            "github": "asharm52",
+            "image": "http://aayushsharma.us/images/avatar.png",
+            "name": "Aayush Sharma",
+            "netid": "asharm52",
+            "role": "iOS App Developer",
+            "team": "Tinder",
+            "website": "aayushsharma.us"
+        },
+        "xli128": {
+            "bio": "Hope to achieve more in the field of computer science",
+            "github": null,
+            "image": null,
+            "name": "Xiaohang Li",
+            "netid": "xli128",
+            "role": "IOS",
+            "team": "Tinder",
+            "website": null
+        },
+        "yzhu73": {
+            "bio": null,
+            "github": null,
+            "image": null,
+            "name": "Yuxian Zhu",
+            "netid": "yzhu73",
+            "role": "Backend",
+            "team": "Tinder",
+            "website": null
+        }
+    },
+    "name": "",
+    "teamid": "tinder"
+}

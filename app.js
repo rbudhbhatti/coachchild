@@ -31,7 +31,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // get team info from JSON file
-app.locals.teamdata = require("./data.json");
+// app.locals.teamdata = require("./data.json");
 // console.log(app.locals.teamdata);
 
 app.use('/', routes);

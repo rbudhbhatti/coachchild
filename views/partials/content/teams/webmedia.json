@@ -1,0 +1,32 @@
+{
+    "description": "<p>We are the web/media team and we made this beautiful website using <a href=\"http://nodejs.org/\">Node.js</a> + <a href=\"http://expressjs.com/\">Express.js</a></p>",
+    "link": "/",
+    "members": {
+        "averma22": {
+            "bio": "<p>Abhishek Verma's description<p>",
+            "github": "averma22",
+            "image": null,
+            "name": "Abhishek Verma",
+            "role": "Website Developer",
+            "website": null
+        },
+        "ayang14": {
+            "bio": "<p>My programming experience started with a cool program called <a href=\"http://scratch.mit.edu/\">Scratch</a>, developed by the MIT Media Lab. Since then, the idea of building programs has captivated me. My earliest projects were games made with <a href=\"http://pygame.org/news.html\">Pygame</a>, a library for Python. They can still be found on my website. Now I am working with frameworks such as Node.js + Express.js and keeping up with the latest technologies.</p>",
+            "github": "andrewyang96",
+            "image": "https://media.licdn.com/media/p/5/005/08f/17c/0aaa92e.jpg",
+            "name": "Andrew Yang",
+            "role": "Website Developer",
+            "website": "http://www.yangmaster.com/"
+        },
+        "vglin2": {
+            "bio": "<p>I am a graphics designer.<p>",
+            "github": "vglin2",
+            "image": null,
+            "name": "Veronica Lin",
+            "role": "Graphics Designer",
+            "website": null
+        }
+    },
+    "name": "Web/Media",
+    "teamid": "webmedia"
+}

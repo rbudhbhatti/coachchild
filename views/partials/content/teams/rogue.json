@@ -1,0 +1,38 @@
+{
+    "description": "",
+    "link": "",
+    "members": {
+        "enache2": {
+            "bio": "I am a freshman in computer science. I plan on joining the corporate world of software development. I was thinking of heading towards general development for companies like Google or Palantir. Working on high frequency or algortithmic trading is another option.",
+            "github": "EnacheB",
+            "image": null,
+            "name": "Bogdan Enache",
+            "netid": "enache2",
+            "role": "Map Generation",
+            "team": "Rogue",
+            "website": null
+        },
+        "kklin4": {
+            "bio": "I am interested in research ways for Artificial Intelligence to enhance human creativity, passion, and wisdom. ",
+            "github": "John5025",
+            "image": "https://www.facebook.com/photo.php?fbid=4207544042205&set=a.1181613635836.21371.1693069910&type=1&theater",
+            "name": "Kevin Lin",
+            "netid": "kklin4",
+            "role": "Combat and Core Functions",
+            "team": "Rogue",
+            "website": null
+        },
+        "kserick2": {
+            "bio": "I am a first year student in Computer Science and Anthropology.  Growing up, I had the distinction of being the only generation to have grown up alongside the evolution of internet based communication systems (social media).  As such, I have always been fascinated by the impact these platforms have had on redefining the significance and means of interpersonal relationships.  With a degree in Computer Science and Anthropology, I hope to investigate the far reaching impact of social media on changing the fabric of social hierarchies in society across time.",
+            "github": "verbiage",
+            "image": "http://api.ning.com/files/LQcKreoqPrjXOfDndF8jEQ77fYMpNMZQQW61PGfuo4b*CmbrVlhVdlN5oqn3YksYanPrJFVMCI87w14XKTCf9HSTB1DLWK0Q/DSC_0045.JPG?width=184&height=184&crop=1%3A1",
+            "name": "Kyle Erickson",
+            "netid": "kserick2",
+            "role": "Core functionality (items)",
+            "team": "Rogue",
+            "website": "http://www.smogon.com/forums/members/verbatim.93103/"
+        }
+    },
+    "name": "",
+    "teamid": "rogue"
+}
