@@ -92,3 +92,35 @@ br.clearRight {
 br.clearLeft {
 	clear: left;
 }
+
+/* End nav-bar CSS */
+
+/* Begin grid CSS (used on team page) */
+
+.grid {
+	padding: 0px 0px 0px 0px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	opacity: 0.95;
+}
+
+.grid ul {
+	padding-left: 0px;
+}
+
+.grid li {
+	display: inline-block;
+	width: 300px;
+	margin: 0;
+	padding: 1px 1px 1px 1px;
+	text-align: left;
+	position: relative;
+}
+
+.grid img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}

@@ -47,8 +47,18 @@ router.get("/blog/:postname?", function (req, res) {
 
 /* GET teams page. */
 router.get("/teams", function (req, res) {
-	res.render("teams", {
-		title : "Teams - CS 196: The Foundry"
+	fs.readdir("./views/partials/content/teams", function (err, files) {
+		var dir = "./views/partials/content/teams/";
+		// replace each element in files with JSON objects
+		for (var i=0; i<files.length; i++) {
+			var filename = path.basename(files[i], ".json");
+			files[i] = JSON.parse(fs.readFileSync(dir+files[i],"utf-8"));
+		}
+		console.log(files);
+		res.render("teams", {
+			title : "Teams - CS 196: The Foundry",
+			files : files
+		});
 	});
 });
 router.get("/teams/:teamname?", function (req,res){
