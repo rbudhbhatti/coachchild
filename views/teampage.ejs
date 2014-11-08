@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>
+  </head>
+  <body id="background">
+  	<!-- Begin navbar -->
+  	<% include partials/template/header.ejs %>
+  	<!-- End navbar -->
+
+  	<!-- Begin content -->
+  	<div class="container">
+      <%- br(5) %>
+      <div class="content-container">
+        <h1><%= file.name %></h1>
+
+        <%- br(2) %>
+
+        <%- file.description %>
+      </div>
+
+  	</div><!-- End content -->
+  	<% include partials/template/footer.ejs %>
+  	<% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>
