@@ -51,7 +51,18 @@ router.get("/teams", function (req, res) {
 		title : "Teams - CS 196: The Foundry"
 	});
 });
-
+router.get("/teams/:teamname?", function (req,res){
+	var dir ="views/partials/content/teams/";
+	var myFile = dir +req.params.teamname + ".json";
+	var myFileJSON = JSON.parse(fs.readFileSync(myFile,"utf-8"));
+	fs.readFile(dir+myFile, function (err,data) {
+		if (err) console.log(err);
+		res.render("blogpost", {
+			title : myFileJSON.title + " -  CS 196: The Foundry",
+			file : myFileJSON
+		});
+	});
+});
 /* GET sponsors page. */
 router.get("/sponsors", function (req, res) {
 	res.render("sponsors", {
