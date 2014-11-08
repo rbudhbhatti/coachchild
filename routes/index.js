@@ -61,7 +61,7 @@ router.get("/teams", function (req, res) {
 		});
 	});
 });
-/*team route */
+/* GET team route */
 router.get("/teams/:teamname?", function (req,res){
 	var dir ="views/partials/content/teams/";
 	var myFile = dir +req.params.teamname + ".json";
