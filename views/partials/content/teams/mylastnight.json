@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "link": "",
+    "members": {
+        "bais2": {
+            "bio": null,
+            "github": null,
+            "image": null,
+            "name": "Nishant Bais",
+            "netid": "bais2",
+            "role": "Backend",
+            "team": "My Last Night",
+            "website": null
+        },
+        "grana3": {
+            "bio": null,
+            "github": null,
+            "image": null,
+            "name": "Cristobal Grana",
+            "netid": "grana3",
+            "role": "Frontend",
+            "team": "My Last Night",
+            "website": null
+        }
+    },
+    "name": "My Last Night",
+    "teamid": "mylastnight"
+}

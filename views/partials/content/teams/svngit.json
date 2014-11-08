@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "link": "",
+    "members": {
+        "tripath4": {
+            "bio": "I am a freshman in Computer Engineering at the University of Illinois. I am interested in learning about computers and their applications, particularly in the fields of Machine Learning, Embedded Systems and Image Processing. ",
+            "github": "animesht",
+            "image": "https://scontent-b-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/526656_10151381615528772_1523234211_n.jpg?oh=f450a5f2715726d1bd9ad194e62fd64d&oe=54D217C1",
+            "name": "Animesh Tripathi",
+            "netid": "tripath4",
+            "role": "Full stack (frontend+backend)",
+            "team": "SVN -> Git",
+            "website": "http://animesh.co"
+        }
+    },
+    "name": "SVN -> Git",
+    "teamid": "svngit"
+}

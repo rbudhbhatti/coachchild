@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "link": "",
+    "members": {
+        "iwells2": {
+            "bio": "I have been keenly interested in computer science since I was a freshman in high school and I took a computer programming course using ancient Microsoft QuickBasic. I was hooked when I saw my first \"Hello World\" flickering in a terminal; I felt like the machine was dancing at my fingertips. I am most interested in artificial intelligence and would like to see my name on a patent for the first thinking, feeling man-made system. That, and I want to live comfortably on top of a fat paycheck.",
+            "github": "ivor-c",
+            "image": null,
+            "name": "Ian Wells",
+            "netid": "iwells2",
+            "role": "Search-by-song",
+            "team": "Song Search",
+            "website": null
+        }
+    },
+    "name": "Song Search",
+    "teamid": "songsearch"
+}
