@@ -4,6 +4,15 @@ $(document).ready(function () {
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
+    var windowWidth = $(window).width();
+    var navButtonsWidth = $("#homeButton").width() +
+        $("#blogButton").width() +
+        $("#teamsButton").width() +
+        $("#sponsorsButton").width() +
+        $("#calendarButton").width() +
+        $("#contactButton").width();
+    // console.log(windowWidth + "-" + navButtonsWidth + "=" + (windowWidth-navButtonsWidth));
+    $("#navGap").css("width", (windowWidth-navButtonsWidth)*0.75 + "px");
     $w.scroll(function () {
         // Scrolling handler
         var scrollTop = $w.scrollTop();
