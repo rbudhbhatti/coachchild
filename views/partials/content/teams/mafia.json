@@ -1,9 +1,28 @@
 {
-  "teamid": "mafia",
-  "name": "Mafia",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "alwendl2": {
+            "bio": "I started out by Programming android when I got my first Android tablet. From there I built my own computer with parts from other computers and a few purchases. Then I learned standalone java the summer before I left for college and now our group is learning Node JS and Python. ",
+            "github": "Alwendl2",
+            "image": null,
+            "name": "Anthony Wendling",
+            "netid": "alwendl2",
+            "role": "Backend",
+            "team": "Mafia",
+            "website": null
+        },
+        "mworley2": {
+            "bio": null,
+            "github": "mworley2",
+            "image": null,
+            "name": "Matthew Worley",
+            "netid": "mworley2",
+            "role": "Frontend",
+            "team": "Mafia",
+            "website": null
+        }
+    },
+    "name": "Mafia",
+    "teamid": "mafia"
 }

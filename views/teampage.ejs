@@ -17,6 +17,15 @@
         <%- br(2) %>
 
         <%- file.description %>
+
+        <% for (member in file.members) { %>
+          <h3><%= file.members[member].name %></h3>
+          <p> <%= file.members[member].role %></p>
+          <p><%- file.members[member].bio %></p>
+          <p><a href="http://github.com/<%= file.members[member].github %>/">GitHub</a></p>
+          <img src="<%= file.members[member].image %>" width="25%"/>
+          <p><a href="<%= file.members[member].website %>">Website</a></p>
+        <% } %>
       </div>
 
   	</div><!-- End content -->

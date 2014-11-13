@@ -1,9 +1,18 @@
 {
-  "teamid": "security",
-  "name": "Android Security",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "cdart2@illinois.edu": {
+            "bio": "My aspirations in the computer science field are very simple. I just want to make an impact with what I create, no matter how small!",
+            "github": "cdart2",
+            "image": null,
+            "name": "Cameron Dart",
+            "netid": "cdart2@illinois.edu",
+            "role": "Write Scripts and Package Linux Distribution",
+            "team": "Security/Hacking",
+            "website": null
+        }
+    },
+    "name": "Android Security",
+    "teamid": "security"
 }

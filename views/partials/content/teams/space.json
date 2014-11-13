@@ -1,9 +1,28 @@
 {
-  "teamid": "space",
-  "name": "Space Colonization",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "aghosh11": {
+            "bio": "I'm Arkojit Ghosh. I'm from India but I've lived in Abu Dhabi for most of my life. Computer science is awesome because it involves creating something from the basic building blocks of code. I'm interested mainly in simulations, artificial intelligence and video game programming.",
+            "github": "DrOctagonopus",
+            "image": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10441375_724100901011898_5448111788012922964_n.jpg?oh=7e67d655419f982bacfa35b28791f7ca&oe=54E982A4&__gda__=1424672533_dc72f72411570eb4f9d21821b79edd90",
+            "name": "Arkojit Ghosh",
+            "netid": "aghosh11",
+            "role": "Backend",
+            "team": "Space Colonization",
+            "website": null
+        },
+        "kcastil2": {
+            "bio": null,
+            "github": null,
+            "image": null,
+            "name": "Koren Castillo",
+            "netid": "kcastil2",
+            "role": "World Geeration",
+            "team": "Space Colonization",
+            "website": null
+        }
+    },
+    "name": "Space Colonization",
+    "teamid": "space"
 }

@@ -1,9 +1,18 @@
 {
-  "teamid": "schedule",
-  "name": "Schedule Optimizer",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "tagarwl2": {
+            "bio": null,
+            "github": "tushagarwal",
+            "image": null,
+            "name": "Tushar Agarwal",
+            "netid": "tagarwl2",
+            "role": "BackEND",
+            "team": "Schedule Optimization",
+            "website": "www.agarwaltushar.me"
+        }
+    },
+    "name": "Schedule Optimizer",
+    "teamid": "schedule"
 }

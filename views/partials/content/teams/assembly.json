@@ -1,9 +1,18 @@
 {
-  "teamid": "assembly",
-  "name": "Assembly",
-  "link": null,
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": null,
+    "members": {
+        "aepstei3": {
+            "bio": "Aidan Epstein is currently a student at the University of Illinois, studying Computer Science.  He plays the cello, and is interested in music, security, cryptography, math, and programming languages.",
+            "github": "aereaux",
+            "image": null,
+            "name": "Aidan Epstein",
+            "netid": "aepstei3",
+            "role": "Backend",
+            "team": "Assembly Interpreter",
+            "website": null
+        }
+    },
+    "name": "Assembly",
+    "teamid": "assembly"
 }

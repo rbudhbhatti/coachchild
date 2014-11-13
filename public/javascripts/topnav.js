@@ -4,7 +4,7 @@ $(document).ready(function () {
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
-    var windowWidth = $(window).width();
+    var windowWidth = $("#nav").width();
     var navButtonsWidth = $("#homeButton").width() +
         $("#blogButton").width() +
         $("#teamsButton").width() +

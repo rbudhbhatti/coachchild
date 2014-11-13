@@ -12,6 +12,16 @@
             "team": "Tinder",
             "website": "aayushsharma.us"
         },
+        "ntdesai2": {
+            "bio": null,
+            "github": "nimayd",
+            "image": null,
+            "name": "Nimay Desai",
+            "netid": "ntdesai2",
+            "role": "Backend",
+            "team": "Tinder",
+            "website": null
+        },
         "xli128": {
             "bio": "Hope to achieve more in the field of computer science",
             "github": null,
@@ -29,6 +39,16 @@
             "name": "Yuxian Zhu",
             "netid": "yzhu73",
             "role": "Backend",
+            "team": "Tinder",
+            "website": null
+        },
+        "zbrusso2": {
+            "bio": "Having seen my dad work in the financial industry for my entire life, I've always had interest in trading.  Working at the Chicago Board of Trade for a few summers I realized this is the field I wanted to pursue.  Realizing the financial instruments people are able to construct using programming, I took computer science in High School and really enjoyed it.  Now I hope to pursue a career in the financial industry through computer science.  ",
+            "github": "zbrusso",
+            "image": "file:///Users/ZackBrusso/Desktop/1660826_10202853704891153_310670845_n-1.jpg",
+            "name": "Zachary Brusso",
+            "netid": "zbrusso2",
+            "role": "Algorithm ",
             "team": "Tinder",
             "website": null
         }

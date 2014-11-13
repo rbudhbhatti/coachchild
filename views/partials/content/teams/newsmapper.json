@@ -2,7 +2,36 @@
     "description": "",
     "link": "",
     "members": {
-
+        "gdyer2": {
+            "bio": "Graham is a <b>level 12</b> necromancer in the department of math at UIUC. He is a <b>human being</b> currently <b>residing on Earth</b>, born after the Big Bang and before the heat death of the universe. He's a fan of Noam Chomsky, foreign policy debate, extremely lightweight computing, minimalism, AngularJS, Python, data mining, competative programming, number theory, and long lists.",
+            "github": "gdyer",
+            "image": "https://cdn.rawgit.com/mbsdev/media/master/graham-stuff/g-butler.jpg",
+            "name": "Graham Dyer",
+            "netid": "gdyer2",
+            "role": "UI and Chrome Extension",
+            "team": "Newsmapper",
+            "website": "gdyer.de"
+        },
+        "margosi2": {
+            "bio": "I am a freshman in computer science with interests in mobile app development and hacking and security. I still have much exploration to do, so my interests may change. I know Java and have experience using Git and Vim.",
+            "github": "margosi2",
+            "image": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/1014843_530826186953103_2035099630_o.jpg",
+            "name": "Daniel Margosian",
+            "netid": "margosi2",
+            "role": "Android App Developer",
+            "team": "Newsmapper",
+            "website": "danielmargosian.me"
+        },
+        "ychen306": {
+            "bio": "I am Yishen Chen. I work on News Mapper. I don't know my passion and I have no live.",
+            "github": "DSrcl",
+            "image": null,
+            "name": "Yishen Chen",
+            "netid": "ychen306",
+            "role": "Biend",
+            "team": "Newsmapper",
+            "website": null
+        }
     },
     "name": "Newsmapper",
     "teamid": "newsmapper"

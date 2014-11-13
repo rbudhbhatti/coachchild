@@ -59,7 +59,7 @@ header {
 	float: left;
 	padding: 3px 8px;
 	background-color: white;
-	margin: 0 10px 0 0;
+	margin: 0 0 0 0;
 	list-style-type: none;
 	font: sans-serif;
 }
@@ -82,7 +82,7 @@ header {
 }
 
 #navGap {
-	width: 50%; /* Adjust as needed */
+	
 }
 
 br.clearRight {

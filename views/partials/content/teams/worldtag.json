@@ -1,9 +1,38 @@
 {
-  "teamid": "worldtag",
-  "name": "World Tag",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "cbhatia2": {
+            "bio": "Hello. My name is Curran, and I am from Cupertino, California.  Living in \n Silicon Valley for my entire life, I've always been surrounded by technology, \n and always wanted to be a part of the world-changing culture. I am inspired \n by the fact that companies like Twitter and Facebook, have the power \n to bring people together and cause drastic change in the world; \n it is awe inspiring, and something I want to be a part of.  \n Through UIUC's Computer Science program, I hope to gain the knowledge in order to work \n in start ups, and eventually become a successful tech entrepreneur.",
+            "github": "curranb",
+            "image": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/t31.0-8/1795374_10202485636895296_1142654880_o.jpg",
+            "name": "Curran Bhatia",
+            "netid": "cbhatia2",
+            "role": "iOS Developer",
+            "team": "World Tag",
+            "website": null
+        },
+        "sokrent2": {
+            "bio": "I like 2 code",
+            "github": "samokrent",
+            "image": null,
+            "name": "Sam Okrent",
+            "netid": "sokrent2",
+            "role": "Backend",
+            "team": "World Tag",
+            "website": null
+        },
+        "stillot2": {
+            "bio": "I am new to computer science entirely and am grateful to have had this experience thus far.  I joined this class in order to get a better idea about the environment and lifestyle of CS and have been very impressed.  I would recommend CS196 to anyone and everyone who would like to explore a career in Computer Science.  ",
+            "github": "stillot2",
+            "image": null,
+            "name": "Sean Tillotson",
+            "netid": "stillot2",
+            "role": "iOS",
+            "team": "World Tag",
+            "website": null
+        }
+    },
+    "name": "World Tag",
+    "teamid": "worldtag"
 }

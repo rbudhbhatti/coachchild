@@ -1,9 +1,38 @@
 {
-  "teamid": "weighin",
-  "name": "WeighIn: Game With A Purpose",
-  "link": "",
-  "description": "",
-  "members": {
-    
-  }
+    "description": "",
+    "link": "",
+    "members": {
+        "agonza96": {
+            "bio": "I am an Illinois native who loves technology and the outdoors.  I am active in intramurals on campus, and I love learning new things.  CS196 is the best class on campus hands down.",
+            "github": "aggonzo326",
+            "image": null,
+            "name": "Alejandro Gonzalez",
+            "netid": "agonza96",
+            "role": "Frontend",
+            "team": "WeighIn",
+            "website": null
+        },
+        "gpasari2": {
+            "bio": "Computer Science aficionado with a knack for adventure and learning.\nHunger for questions that make me think. Aspire to be a developer and entrepreneur. (Vorfreude!) ",
+            "github": "gauravpasari",
+            "image": null,
+            "name": "Gaurav Pasari",
+            "netid": "gpasari2",
+            "role": "Backend",
+            "team": "WeighIn",
+            "website": null
+        },
+        "novacov2": {
+            "bio": "I chose to work for weighin because we have a great motivated team of individuals that are dedicated to the company. We are also planning on changing the way people look at and create games so they can be fun and collect enormous amounts of data that can benefit the world in many ways.",
+            "github": "paulnovacovici",
+            "image": null,
+            "name": "Paul Novacovici",
+            "netid": "novacov2",
+            "role": "Frontend",
+            "team": "WeighIn",
+            "website": "weighin.me"
+        }
+    },
+    "name": "WeighIn: Game With A Purpose",
+    "teamid": "weighin"
 }
