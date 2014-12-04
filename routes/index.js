@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var fs = require("fs");
 var path = require("path");
+var user = require("../res/users")
+
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -94,6 +96,18 @@ router.get("/calendar", function (req, res) {
 router.get("/contact", function (req, res) {
 	res.render("contact", {
 		title : "Contact Us - CS 196: The Foundry"
+	});
+});
+router.get("/test", function(req, res) {
+
+	user.connect(function(err){
+
+		user.loadUser(function(err_query,data){
+
+			res.json(data);
+
+		});
+  
 	});
 });
 
