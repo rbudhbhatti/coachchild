@@ -1,4 +1,4 @@
-#background {
+.homepage #background { /* Homepage's background */
 	background: url("../images/backgrounds/background.jpg") repeat 50% 50% fixed;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -7,16 +7,32 @@
 	background-position: 0px 0px;
 }
 
-.container {
-	color: #008800;
-	font-size: 36px;
+#background { /* Background for all other pages */
+	background-color: #808080;
 }
 
-.content-container {
+.container {
+	color: #008800; /* Text color */
+	font-size: 36px; /* Text size */
+	font-family: Century Gothic, Arial, Courier New, sans-serif; /* Text's font */
+}
+
+.homepage .content-container { /* Content containers for the homepage */
 	background-color: white;
 	opacity: 0.75;
 	padding: 2.5%;
+	border: 1px solid #b0b0b0;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.content-container { /* Content containers for all other pages */
+	background-color: #f0f0f0;
+	opacity: 1.0;
+	padding: 2.5%;
 	border: 1px solid gray;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 #logo {
