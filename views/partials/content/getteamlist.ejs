@@ -9,7 +9,8 @@
         <% for (var file in files) { %>
             <li>
                 <a href="<%= files[file].teamid %>">
-                    <img src="../images/icon.png" alt="Icon">
+                    <!--<img src="../images/icon.png" alt="Icon">-->
+                    <img src="../images/thumbnails/<%= files[file].teamid %>.jpg" alt="Icon">
                 </a>
         <% } %>
     </ul>
