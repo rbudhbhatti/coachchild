@@ -3,6 +3,30 @@ var router = express.Router();
 var fs = require("fs");
 var path = require("path");
 var user = require("../res/users")
+//______________________________________________________
+var mysql = require("mysql");
+var app = express();
+
+var connection = mysql.createConnection({
+	host : 'localhost',
+	user : 'root',
+	password: '',
+	database: 'webmedia'
+});
+
+connection. connect();
+
+app.set('views',__dirname + '/view');
+app.use(express.static(__dirname + '/js'));
+app.set('view engine', 'ejs');
+app.engine('html',require('ejs').renderFile);
+
+router.get('/get_from_db',function(req,res){
+        connection.query("SELECT * from blogpost",function(err,rows){
+          res.json(rows);
+        });
+});
+//__________________________________________________________
 
 
 /* GET home page. */
@@ -15,7 +39,19 @@ router.get('/', function(req, res) {
 /* GET blog page. */
 router.get("/blog", function (req, res) {
 
-	fs.readdir("./views/partials/content/posts", function (err, files) {
+	connection.query("SELECT * from blogpost",function(err,rows){
+		var blog = rows;
+		connection.end();
+
+		if(err) throw err;
+		else{
+			
+          res.render('Blog',{
+			blog: blog
+		});
+		}
+     });
+	/*fs.readdir("./views/partials/content/posts", function (err, files) {
 		var dir = "./views/partials/content/posts/";
 		files.reverse(); // reverse so that most recent is first
 		// replace each element in files with JSON objects
@@ -30,6 +66,7 @@ router.get("/blog", function (req, res) {
 			files : files
 		});
 	});
+*/
 	
 });
 
