@@ -7,14 +7,8 @@ var user = require("../res/users")
 var mysql = require("mysql");
 var app = express();
 
-var connection = mysql.createConnection({
-	host : 'localhost',
-	user : 'root',
-	password: '',
-	database: 'webmedia'
-});
-
-connection. connect();
+// REQUIRES login.json
+var connection = mysql.createConnection(JSON.parse(fs.readFileSync("./login.json", "utf-8")));
 
 app.set('views',__dirname + '/view');
 app.use(express.static(__dirname + '/js'));
@@ -38,19 +32,22 @@ router.get('/', function(req, res) {
 
 /* GET blog page. */
 router.get("/blog", function (req, res) {
-
-	connection.query("SELECT * from blogpost",function(err,rows){
+	console.log("Connecting to blog");
+	connection.connect();
+	console.log("Connections established");
+	connection.query("SELECT * from blogposts", function (err, rows){ // ETIMEDOUT error on this line
 		var blog = rows;
 		connection.end();
 
 		if(err) throw err;
-		else{
-			
-          res.render('Blog',{
+		console.log("Retrieved blog stuff");
+		console.log(blog);
+
+        res.render('Blog',{
+        	title : "Blog - CS 196: The Foundry",
 			blog: blog
 		});
-		}
-     });
+    });
 	/*fs.readdir("./views/partials/content/posts", function (err, files) {
 		var dir = "./views/partials/content/posts/";
 		files.reverse(); // reverse so that most recent is first
