@@ -25,7 +25,7 @@ router.get('/get_from_db',function(req,res){
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', {
-  	title: 'CS 196: The Foundry'
+  	title: 'Coach A Child'
   });
 });
 
@@ -43,26 +43,10 @@ router.get("/blog", function (req, res) {
 		console.log(blog);
 
         res.render('Blog',{
-        	title : "Blog - CS 196: The Foundry",
+        	title : "Blog - Coach A Child'",
 			blog: blog
 		});
     });
-	/*fs.readdir("./views/partials/content/posts", function (err, files) {
-		var dir = "./views/partials/content/posts/";
-		files.reverse(); // reverse so that most recent is first
-		// replace each element in files with JSON objects
-	    for (var i=0; i<files.length; i++) {
-	    	var filename = path.basename(files[i], ".json");
-	    	files[i] = JSON.parse(fs.readFileSync(dir+files[i],"utf-8"));
-	    	files[i]["postname"] = filename; // add property "postname" to every JSON object
-	    }
-		console.log(files);
-		res.render("blog", {
-			title : "Blog - CS 196: The Foundry",
-			files : files
-		});
-	});
-*/
 	
 });
 
@@ -74,7 +58,7 @@ router.get("/blog/:postname?", function (req, res) {
 	fs.readFile(dir+myFile, function (err, data) {
 		if (err) console.log(err);
 		res.render("blogpost", {
-			title : myFileJSON.title + " - CS 196: The Foundry",
+			title : myFileJSON.title + " - Coach A Child'",
 			file : myFileJSON
 		});
 	});
@@ -106,7 +90,7 @@ router.get("/teams/:teamname?", function (req,res){
 		if (err) console.log(err);
 		console.log(myFileJSON)
 		res.render("teampage", {
-			title : myFileJSON.name + " -  CS 196: The Foundry",
+			title : myFileJSON.name + " -  Coach A Child'",
 			file : myFileJSON
 		});
 	});
@@ -114,21 +98,21 @@ router.get("/teams/:teamname?", function (req,res){
 /* GET sponsors page. */
 router.get("/sponsors", function (req, res) {
 	res.render("sponsors", {
-		title : "Sponsors - CS 196: The Foundry"
+		title : "Sponsors - Coach A Child'"
 	});
 });
 
 /* GET calendar page. */
 router.get("/calendar", function (req, res) {
 	res.render("calendar", {
-		title : "Calendar - CS 196: The Foundry"
+		title : "Calendar - Coach A Child'"
 	});
 });
 
 /* GET contact page. */
 router.get("/contact", function (req, res) {
 	res.render("contact", {
-		title : "Contact Us - CS 196: The Foundry"
+		title : "Contact Us - Coach A Child'"
 	});
 });
 router.get("/test", function(req, res) {
