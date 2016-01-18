@@ -8,7 +8,6 @@ var mysql = require("mysql");
 var app = express();
 
 // REQUIRES login.json
-var connection = mysql.createConnection(JSON.parse(fs.readFileSync("./login.json", "utf-8")));
 
 app.set('views',__dirname + '/view');
 app.use(express.static(__dirname + '/js'));
