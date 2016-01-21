@@ -6,6 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require("fs");
 
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/users');
+
+
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -35,8 +41,15 @@ app.use(express.static(path.join(__dirname, 'public')));
  app.locals.teamdata = require("./data.json");
 // console.log(app.locals.teamdata);
 
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+})
+
 app.use('/', routes);
 app.use('/users',users);
+app.use('/signup',routes);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
