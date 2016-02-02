@@ -13,7 +13,6 @@
 
 .container {
 	color: #008800; /* Text color */
-	font-size: 36px; /* Text size */
 	font-family: Century Gothic, Arial, Courier New, sans-serif; /* Text's font */
 }
 
@@ -139,4 +138,8 @@ br.clearLeft {
 	max-width: 100%;
 	display: block;
 	position: relative;
+}
+
+#loginbox{
+	font-size: 5px;
 }
